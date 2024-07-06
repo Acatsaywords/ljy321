@@ -7,10 +7,6 @@
 
 'use strict'
 
-/**
- * RegExp to check for no-cache token in Cache-Control.
- * @private
- */
 
 var CACHE_CONTROL_NO_CACHE_REGEXP = /(?:^|,)\s*?no-cache\s*?(?:,|$)/
 
